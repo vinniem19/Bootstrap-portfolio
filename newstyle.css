@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    height: 50px;
+    width: 960px;
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper {
+    width: auto;
+    margin-left: 40px;
+    padding: 10px;
+    background: tan;
+}
+
+#content {
+width: 960px;
+
+
+}
+.logo {
+    float: left;
+    font-size: 48px;
+    border-radius: 16%;
+    background-color: #4aaaa5;
+    margin-left: 76px;
+    margin-top: 5px;
+
+    }
+
+#logoname {
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-emphasis: bold;
+} 
+
+a {
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+}
+.navbar {
+    float: right;
+    padding-top: 30px;
+
+}
+/* This is a clearfix */
+/* .clearfix::after { */
+    /* content: ""; */
+    /* clear: both; */
+   /* } */
+
+body {
+    width: 960px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: url(light_grey.png)
+    }
+
+.content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+h1 {
+    clear: left;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 36px;
+    margin: 5px;
+}
+
+img {
+    height: 300px;
+    width:  250px;
+    float: left;
+    margin: 5px;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  #name {
+    display: block;
+}
+
+#email {
+    display: block;
+
+}
+
+#message {
+    display: block;
+    grid-area: span;
+}
+form {
+    float: left;
+}
+.fixed-bottom {
+    color: brown;
+}
+
