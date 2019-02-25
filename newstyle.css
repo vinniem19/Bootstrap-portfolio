@@ -1,6 +1,41 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    width: auto;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    background-image: url(light_grey.png)
+    }
+
+    /* content main */
+    .wrapper {
+        width: auto;
+        height: auto;
+        padding: 10px;
+        background: tan;
+    }
+
+ /* navigation area */
+.row2{
+
+}
+
+/* navigation bar */
+#navigationbar{
+
+}
+
+/* heading */
+.row3{
+
+}
+
+/* header, if one is set up in your doc */
 header {
     height: 50px;
     width: 960px;
@@ -8,12 +43,7 @@ header {
     padding: 0;
 
 }
-.wrapper {
-    width: auto;
-    height: auto;
-    padding: 10px;
-    background: tan;
-}
+
 
 /* #content { */
 /* width: 960px; */
@@ -51,14 +81,7 @@ a {
     /* clear: both; */
    /* } */
 
-body {
-    width: auto;
-    padding: 0;
-    margin: 0;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size: 18px;
-    background-image: url(light_grey.png)
-    }
+
 
 .content {
     width: 960px;
@@ -88,8 +111,9 @@ p {
     width: 100%;
 }
 
-footer {
+.footer {
     position: fixed;
+    clear: left;
     left: 0;
     bottom: 0;
     height: 10%;
