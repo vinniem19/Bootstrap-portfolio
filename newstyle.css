@@ -41,15 +41,9 @@ header {
     width: 960px;
     margin: 0;
     padding: 0;
-
 }
 
-
-/* #content { */
-/* width: 960px; */
-
-
-
+/* logo, if you have one set up */
 #logo {
     color:white;
     text-align: center;
@@ -64,15 +58,17 @@ header {
     text-emphasis: bold;
     } 
 
+/* links */
 a {
     margin: 25px;
     text-decoration: none;
     color: black;
 }
 
-.navbar {
+/* for a navbar class, if it is set up in html doc */
+/* .navbar {
     float: right;
-    padding-top: 30px;
+    padding-top: 30px; */
 
 }
 /* This is a clearfix */
@@ -87,9 +83,6 @@ a {
     width: 960px;
     margin: 0 auto;
 }
-
-
-
 
 h1 {
     clear: left;
@@ -141,9 +134,7 @@ form {
 
 }
 
-.fixed-bottom {
-    color: brown;
-}
+
 /* #contactform1 { */
 
 /* } */
